@@ -1,2 +1,12 @@
-# expressoes-lambda-em-streams
-Objetivo: Usar lambda em stream
+![](https://github.com/ocpjp-study/expressoes-lambda-em-streams/blob/main/ocpjp.png)
+
+[Preparação para o Exame 1Z0-817](https://education.oracle.com/pt_BR/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
+
+### Tópico: Expressões lambda em Stream
+### Objetivos
+- Usar a classe Optional;
+- Executar cálculos usando operações de count, max, min, average e sum;
+- Usar dados de stream de pesquisa usando os métodos findFirst, findAny, anyMatch, allMatch e noneMatch;
+- Extrair dados de fluxo usando os métodos map, peek e flatMap;
+- Usar coletores com fluxos, incluindo a operação groupingBy e partitioningBy;
+- Classificar uma coleção usando expressões lambda;
