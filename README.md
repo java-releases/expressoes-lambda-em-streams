@@ -10,3 +10,26 @@
 - Extrair dados de fluxo usando os métodos map, peek e flatMap;
 - Usar coletores com fluxos, incluindo a operação groupingBy e partitioningBy;
 - Classificar uma coleção usando expressões lambda;
+
+### Operações intermediárias
+- map();
+- flatMap();
+- peek();
+- filter();
+- distinct();
+- limit();
+- skip();
+- sorted();
+
+### Operações Finais
+- count();
+- min();
+- max();
+- reduce();
+- collect();
+- findAny();
+- findFirst();
+- allMatch();
+- anyMatch();
+- noneMatch();
+- forEach();
