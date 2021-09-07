@@ -33,3 +33,6 @@
 - anyMatch();
 - noneMatch();
 - forEach();
+
+### Regras
+- Um Stream é executado somente quando adicionamos um método considerado como `terminal operation`; 
