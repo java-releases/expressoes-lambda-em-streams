@@ -36,4 +36,4 @@
 
 ### Regras
 - Um Stream é executado somente quando adicionamos um método considerado como `terminal operation`; 
-- Quando temos um Stream infinito, e chamamos uma operação que precise percorrer todos os elemntos, a aplicação falha. Caso a operação não precise percorrer todos os elementos, então será executado com sucesso;
+- Quando temos um Stream infinito, e chamamos uma operação que precise percorrer todos os elemntos, a aplicação irá falhar. Caso a operação não precise percorrer todos os elementos, então será executado com sucesso;
