@@ -11,7 +11,17 @@
 - Usar coletores com fluxos, incluindo a operação groupingBy e partitioningBy;
 - Classificar uma coleção usando expressões lambda;
 
-### Operações intermediárias
+<hr>
+
+### Resumo
+- Um Stream é executado somente quando adicionamos um método considerado como `terminal operation`; 
+- Quando temos um Stream infinito, e chamamos uma operação que precise percorrer todos os elementos, a aplicação irá falhar. Caso a operação não precise percorrer todos os elementos, então será executado com sucesso;
+- E um Stream, não posso chamar mais de 1 `terminal operation`, senão irá gerar um `java.lang.IllegalStateException: stream has already been operated upon or closed`;
+- Um IntStream.empty(), retorna um IntStream;
+- Um método average(), retorna um OptionalDouble();
+<br/>
+
+> #### Operações intermediárias
 - map();
 - flatMap();
 - peek();
@@ -21,7 +31,7 @@
 - skip();
 - sorted();
 
-### Operações Finais
+> #### Operações Finais
 - count();
 - min();
 - max();
@@ -33,10 +43,3 @@
 - anyMatch();
 - noneMatch();
 - forEach();
-
-### Regras
-- Um Stream é executado somente quando adicionamos um método considerado como `terminal operation`; 
-- Quando temos um Stream infinito, e chamamos uma operação que precise percorrer todos os elementos, a aplicação irá falhar. Caso a operação não precise percorrer todos os elementos, então será executado com sucesso;
-- E um Stream, não posso chamar mais de 1 `terminal operation`, senão irá gerar um `java.lang.IllegalStateException: stream has already been operated upon or closed`;
-- Um IntStream.empty(), retorna um IntStream;
-- Um método average(), retorna um OptionalDouble();
