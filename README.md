@@ -42,4 +42,3 @@
 - allMatch();
 - anyMatch();
 - noneMatch();
-- forEach();
