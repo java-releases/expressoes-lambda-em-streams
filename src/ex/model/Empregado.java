@@ -37,4 +37,10 @@ public class Empregado {
 		this.genero = genero;
 	}
 
+	@Override
+	public String toString() {
+		return "Empregado [nome=" + nome + ", salario=" + salario + ", genero=" + genero + "]";
+	}
+
+	
 }
