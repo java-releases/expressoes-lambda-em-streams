@@ -1,5 +1,3 @@
-![](https://github.com/ocpjp-study/expressoes-lambda-em-streams/blob/main/stream.jpg)
-
 ### Tópico: Expressões lambda em Stream
 ### Objetivos
 - Usar a classe Optional;
